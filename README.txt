@@ -11,6 +11,9 @@ Type in command line the following commands:
 
 Attention:
 Recommend to run in root privilege 
+##Use With cron			#refer:github.com/Pricetx/backup
+If you're running this script from cron, make sure you add the following line to the top of your crontab:
+`PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin`
 
 Refer:
 github.com
